@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <Router>
+    <Router basename="/react-JS-pre-entrega-Martin-Olmedo">
       <Header />
       <Routes>
         <Route path="/administracion" element={<Login />} />
