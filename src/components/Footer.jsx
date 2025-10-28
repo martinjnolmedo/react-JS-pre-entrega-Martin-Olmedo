@@ -8,18 +8,18 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col md={6}>
-                        <p className="mb-0">Todo por 2 pesos</p>
-                        <p className="mb-0">Avenida Siempre viva 742, Springfield</p>
+                        <p className="mb-0">Práctica ReactJS Talento Tech - BA</p>
+                        <p className="mb-0">CABA - Argentina</p>
                     </Col>
                     <Col md={6}>
                         <div>
-                            <a href="#" className="text-white me-3">
+                            <a href="http://facebook.com" className="text-white me-3" target='_blank'>
                                 <i className="fa fa-facebook fa-2x"></i>
                             </a>
-                            <a href="#" className="text-white me-3">
+                            <a href="http://x.com" className="text-white me-3" target='_blank'>
                                 <i className="fa fa-twitter fa-2x"></i>
                             </a>
-                            <a href="#" className="text-white">
+                            <a href="http://instagram.com" className="text-white" target='_blank'>
                                 <i className="fa fa-instagram fa-2x"></i>
                             </a>
                         </div>
